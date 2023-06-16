@@ -12,4 +12,4 @@ sudo docker docker login -u bainos69 -p dckr_pat_jiDSso84T_kzIJxc1BwhToWDLd0
 sudo docker build -t ahmed14 .
 sudo docker tag ahmed14:latest bainos69/ahmed14:latest
 sudo docker push bainos69/ahmed14:latest 
-sudo docker run -d -p 8080:1234 --name ahmed14 bainos69/
+sudo docker run -d -p 80:1234 --name ahmed14 bainos69/
